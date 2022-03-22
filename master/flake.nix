@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-perlin-master.flake = false;
+  inputs.src-perlin-master.ref   = "refs/heads/master";
   inputs.src-perlin-master.owner = "Nycto";
-  inputs.src-perlin-master.ref   = "master";
   inputs.src-perlin-master.repo  = "PerlinNim";
   inputs.src-perlin-master.type  = "github";
   
