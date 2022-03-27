@@ -11,6 +11,7 @@
   inputs.src-perlin-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-perlin-0_2_0.owner = "Nycto";
   inputs.src-perlin-0_2_0.repo  = "PerlinNim";
+  inputs.src-perlin-0_2_0.dir   = "";
   inputs.src-perlin-0_2_0.type  = "github";
   
   inputs."random".owner = "nim-nix-pkgs";

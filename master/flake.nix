@@ -11,6 +11,7 @@
   inputs.src-perlin-master.ref   = "refs/heads/master";
   inputs.src-perlin-master.owner = "Nycto";
   inputs.src-perlin-master.repo  = "PerlinNim";
+  inputs.src-perlin-master.dir   = "";
   inputs.src-perlin-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

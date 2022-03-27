@@ -11,6 +11,7 @@
   inputs.src-perlin-0_5_0.ref   = "refs/tags/0.5.0";
   inputs.src-perlin-0_5_0.owner = "Nycto";
   inputs.src-perlin-0_5_0.repo  = "PerlinNim";
+  inputs.src-perlin-0_5_0.dir   = "";
   inputs.src-perlin-0_5_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
